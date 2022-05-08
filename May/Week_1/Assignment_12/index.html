@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Iframe Assignment</title>
+    <style>
+        img{
+            height: 150px;
+            width: 150px;
+            border-radius: 10px 10px 10px 10px;
+
+        }
+
+        a{
+            text-decoration: none;
+            padding-top: 10px;
+            color: rgb(255, 68, 0);
+        }
+
+        #menu aside{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            padding: 10px;
+            text-align: center;
+            align-items: center;
+            font-size: x-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            
+        }
+
+        #menu{
+            border-right: 3px solid black;
+                    flex: 1;
+                    background-color: rgb(180, 180, 213);
+                            }
+        
+        .container{
+            display: flex;
+        }
+
+        #iframe{
+            flex: 4;
+            }
+
+        iframe{
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }    
+
+    </style>
+</head>
+<body>
+ <main class="container">
+    <aside id="menu" >
+        <aside>
+            <a href="mobile.html" target="rightpanel">
+            <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+           <br> Mobile</a>
+        </aside>
+
+        <aside>
+            <a href="tv.html" target="rightpanel">
+            <img src="https://images.pexels.com/photos/6976094/pexels-photo-6976094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <br>TV </a>
+        </aside>
+
+        <aside>
+            <a href="laptop.html" target="rightpanel">
+            <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <br>Laptops</a>
+        </aside>
+
+        <aside>
+            <a href="men.html" target="rightpanel">
+            <img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" >
+            <br>Men's Clothing</a>
+        </aside>
+    </aside>    
+        <main id="iframe">
+        <iframe name="rightpanel">
+
+        </iframe>
+        </main>
+ </main>
+    
+</body>
+</html>
