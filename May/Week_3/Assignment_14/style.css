@@ -1,0 +1,17 @@
+.bg-dark{
+    background:linear-gradient(5deg,black,rgb(5, 76, 5));
+}
+
+.navbar-light .navbar-brand {
+    color: #f9f9f9;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #f4fc08;
+}
+
+.container .d-flex .btn {
+    width: 15%;
+}
